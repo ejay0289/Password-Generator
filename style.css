@@ -102,6 +102,11 @@ label{
     body{
         margin: 0;
         overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .btn{
+        padding: 1.2rem;
+        border-radius: 1.8rem;
     }
     .password-display{
         width: 90vw;
@@ -109,12 +114,12 @@ label{
     .container
     {
         border: none;
-        background-color: hsla(200, 12%, 10%, 0.2);
-        width: 450px;
-        float: left;
+        background-color: hsla(197, 76%, 26%, .0);
+        width: 100vw;
+     
         margin-top: 0;
         height: 100vh;
-        border-radius: 5px;
+    
         overflow-y: hidden;  /* Makes the scrollbar appear when it should be scrollable */
     }
     
