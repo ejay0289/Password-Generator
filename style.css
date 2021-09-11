@@ -103,6 +103,9 @@ label{
         margin: 0;
         overflow-y: hidden;
     }
+    .password-display{
+        width: 90vw;
+    }
     .container
     {
         border: none;
