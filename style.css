@@ -1,6 +1,6 @@
 body{
 
-    background-image: linear-gradient(45deg, #9F89A9, #8751A5, #D24868);
+    background-image: linear-gradient(45deg,#4B4453,#B39CD0, #9F89A9,#FF6F91, #8751A5, #D24868);
     color: #FFE4F9;
     display: flex;
     min-height: 100vh;
@@ -99,15 +99,20 @@ label{
 
 
 @media screen and (max-width: 600px) {
+    body{
+        margin: 0;
+        overflow-y: hidden;
+    }
     .container
     {
+        border: none;
+        background-color: hsla(200, 12%, 10%, 0.2);
         width: 450px;
         float: left;
-        
+        margin-top: 0;
         height: 100vh;
         border-radius: 5px;
-        margin-top: 30px;
-        overflow-y: auto;  /* Makes the scrollbar appear when it should be scrollable */
+        overflow-y: hidden;  /* Makes the scrollbar appear when it should be scrollable */
     }
     
     }
